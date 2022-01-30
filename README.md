@@ -1,5 +1,3 @@
-[![GoDoc](http://godoc.org/github.com/robfig/cron?status.png)](http://godoc.org/github.com/robfig/cron)
-[![Build Status](https://travis-ci.org/robfig/cron.svg?branch=master)](https://travis-ci.org/robfig/cron)
 
 # cron
 
@@ -18,8 +16,9 @@ It requires Go 1.11 or later due to usage of Go Modules.
 Refer to the documentation here:
 http://godoc.org/github.com/robfig/cron
 
-The rest of this document describes the the advances in v3 and a list of
+The rest of this document describes the advances in v3 and a list of
 breaking changes for users that wish to upgrade from an earlier version.
+本文档的其余部分介绍了v3的进展和正在为希望从早期版本升级的用户中断更改。
 
 ## Upgrading to v3 (June 2019)
 
@@ -29,6 +28,10 @@ contains various fixes to issues found over the years and the v2 branch which
 contains some backwards-incompatible features like the ability to remove cron
 jobs. In addition, v3 adds support for Go Modules, cleans up rough edges like
 the timezone support, and fixes a number of bugs.
+cron v3 是该库的重大升级，解决了所有突出错误、功能要求和粗糙的边缘。 
+它基于 master 的合并 包含对多年来发现的问题的各种修复以及 v2 分支
+包含一些向后不兼容的功能，例如删除 cron 的功能 工作。 
+此外，v3 增加了对 Go Modules 的支持，清理了粗糙的边缘，例如 时区支持，并修复了一些错误。
 
 New features:
 
